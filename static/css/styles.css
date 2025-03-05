@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Headings */
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+/* File Upload Styling */
+.custom-file-upload {
+    display: block;
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.custom-file-upload:hover {
+    background: #218838;
+}
+
+/* Hide default file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Buttons */
+.btn, button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover, button:hover {
+    background: #0056b3;
+}
+
+/* Image Preview */
+#previewContainer {
+    margin-top: 15px;
+}
+
+#previewImage {
+    max-width: 100%;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Prediction Image */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Loading Animation */
+#loading {
+    display: none;
+    font-size: 16px;
+    color: #ff6600;
+    margin-top: 10px;
+    font-weight: bold;
+}
